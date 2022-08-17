@@ -4,8 +4,8 @@
     "scripts": {
         "start": "nodemon ./src/server/index.ts",
         "test": "jest --env=jsdom",
-        "hermione": "./node_modules/.bin/hermione --set all",
-        "hermione:gui": "./node_modules/.bin/hermione gui --set all",
+        "hermione": "./node_modules/.bin/hermione",
+        "hermione:gui": "./node_modules/.bin/hermione gui",
         "build": "webpack --mode=production --node-env=production",
         "watch": "webpack --watch"
     },

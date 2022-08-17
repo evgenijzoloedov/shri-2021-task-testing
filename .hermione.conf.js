@@ -1,4 +1,3 @@
-const path = require("path");
 const PORT = +process.env.PORT || 3000;
 
 module.exports = {
@@ -19,8 +18,6 @@ module.exports = {
     plugins: {
         "hermione-auto-start-project": {
             startCommand: "npm run start",
-            buildCommand: "npm run build",
-            buildFolder: path.join(".", "dist"),
             port: PORT,
             path: "/hw/store",
             maxTime: 20000,

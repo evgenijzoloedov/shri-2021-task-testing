@@ -1,5 +1,5 @@
 {
-  "name": "hermione-auto-start-project",
+  "name": "hermione-auto-start-selenium",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,4 +13,3 @@
     "hermione": "^5.0.1"
   }
 }
-
